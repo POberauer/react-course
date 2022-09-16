@@ -82,8 +82,8 @@ code {
 
 .footer
 {
-  line-height: 100px;
-  min-height: 150px;
+  line-height: 50px;
+  min-height: 20px;
   text-align: center;
   font-size: 14px;
   margin-top: 35px;
@@ -100,4 +100,12 @@ code {
 .page .heading{
   font-size: 55px;
   font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  display: block;
+  padding: 15px;
+  margin-top: 25px;
+  width: 250px;
 }
